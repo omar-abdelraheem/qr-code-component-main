@@ -22,10 +22,12 @@ section {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-radius: 10px;
 }
 section img {
   width: 288px;
   height: 288px;
+  border-radius: 10px;
 }
 
 section h2 {
@@ -36,13 +38,4 @@ section h2 {
 section p {
   color: #7d889e;
   font-size: 15px;
-}
-
-@media only screen and (max-width: 600px) {
-  section {
-    border-radius: 10px;
-  }
-  img {
-    border-radius: 10px;
-  }
 }
